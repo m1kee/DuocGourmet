@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DuocGourmetDatabase", "..\DuocGourmetDatabase\DuocGourmetDatabase.sqlproj", "{3D1250D2-9B75-4D56-B36A-8DEEB0DD2077}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "DuocGourmetCube", "..\DuocGourmetCube\DuocGourmetCube.dwproj", "{947C0B6E-CC51-4DB2-98B6-4665E012B170}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D1250D2-9B75-4D56-B36A-8DEEB0DD2077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D1250D2-9B75-4D56-B36A-8DEEB0DD2077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D1250D2-9B75-4D56-B36A-8DEEB0DD2077}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3D1250D2-9B75-4D56-B36A-8DEEB0DD2077}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D1250D2-9B75-4D56-B36A-8DEEB0DD2077}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{3D1250D2-9B75-4D56-B36A-8DEEB0DD2077}.Development|Any CPU.Deploy.0 = Debug|Any CPU
+		{3D1250D2-9B75-4D56-B36A-8DEEB0DD2077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D1250D2-9B75-4D56-B36A-8DEEB0DD2077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D1250D2-9B75-4D56-B36A-8DEEB0DD2077}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{947C0B6E-CC51-4DB2-98B6-4665E012B170}.Debug|Any CPU.ActiveCfg = Development
+		{947C0B6E-CC51-4DB2-98B6-4665E012B170}.Debug|Any CPU.Build.0 = Development
+		{947C0B6E-CC51-4DB2-98B6-4665E012B170}.Debug|Any CPU.Deploy.0 = Development
+		{947C0B6E-CC51-4DB2-98B6-4665E012B170}.Development|Any CPU.ActiveCfg = Development
+		{947C0B6E-CC51-4DB2-98B6-4665E012B170}.Development|Any CPU.Build.0 = Development
+		{947C0B6E-CC51-4DB2-98B6-4665E012B170}.Development|Any CPU.Deploy.0 = Development
+		{947C0B6E-CC51-4DB2-98B6-4665E012B170}.Release|Any CPU.ActiveCfg = Development
+		{947C0B6E-CC51-4DB2-98B6-4665E012B170}.Release|Any CPU.Build.0 = Development
+		{947C0B6E-CC51-4DB2-98B6-4665E012B170}.Release|Any CPU.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {406C2EA7-FCCF-4E9D-8724-55260CD7360B}
+	EndGlobalSection
+EndGlobal
