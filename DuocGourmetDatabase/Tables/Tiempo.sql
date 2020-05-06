@@ -1,0 +1,10 @@
+﻿CREATE TABLE [dbo].[Tiempo]
+(
+	[Fecha] DATETIME NOT NULL CONSTRAINT [PK_Tiempo] PRIMARY KEY,
+	[Hora] TIME NOT NULL,
+	[Dia] INT NOT NULL,
+	[Semana] INT NOT NULL,
+	[Mes] INT NOT NULL,
+	[Semestre] INT NOT NULL,
+	[Anio] INT NOT NULL
+)

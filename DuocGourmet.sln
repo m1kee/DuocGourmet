@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DuocGourmetDatabase", "..\DuocGourmetDatabase\DuocGourmetDatabase.sqlproj", "{3D1250D2-9B75-4D56-B36A-8DEEB0DD2077}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DuocGourmetDatabase", "DuocGourmetDatabase\DuocGourmetDatabase.sqlproj", "{3D1250D2-9B75-4D56-B36A-8DEEB0DD2077}"
 EndProject
-Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "DuocGourmetCube", "..\DuocGourmetCube\DuocGourmetCube.dwproj", "{947C0B6E-CC51-4DB2-98B6-4665E012B170}"
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "DuocGourmetCube", "DuocGourmetCube\DuocGourmetCube.dwproj", "{947C0B6E-CC51-4DB2-98B6-4665E012B170}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
