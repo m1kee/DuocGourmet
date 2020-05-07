@@ -16,5 +16,5 @@
 	[Propina] NUMERIC(15,3) NOT NULL,
 	[Descuento] NUMERIC(15,3) NOT NULL CONSTRAINT [DF_Descuento] DEFAULT(0)
 
-	CONSTRAINT [PK_Venta] PRIMARY KEY ([UID], [Fecha], [GarzonId], [CajeroId], [CajaId], [ProductoId], [ProductoId], [FormaPagoId])
+	CONSTRAINT [PK_Venta] PRIMARY KEY ([UID], [Fecha], [GarzonId], [CajeroId], [CajaId], [ProductoId], [FormaPagoId])
 )
