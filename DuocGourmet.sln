@@ -7,6 +7,8 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DuocGourmetDatabase", "Duoc
 EndProject
 Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "DuocGourmetCube", "DuocGourmetCube\DuocGourmetCube.dwproj", "{947C0B6E-CC51-4DB2-98B6-4665E012B170}"
 EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "DuocGourmetETL", "DuocGourmetETL\DuocGourmetETL.dtproj", "{5A883C1D-A06A-460F-B375-0F0DC7D395D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,12 @@ Global
 		{947C0B6E-CC51-4DB2-98B6-4665E012B170}.Release|Any CPU.ActiveCfg = Development
 		{947C0B6E-CC51-4DB2-98B6-4665E012B170}.Release|Any CPU.Build.0 = Development
 		{947C0B6E-CC51-4DB2-98B6-4665E012B170}.Release|Any CPU.Deploy.0 = Development
+		{5A883C1D-A06A-460F-B375-0F0DC7D395D6}.Debug|Any CPU.ActiveCfg = Development
+		{5A883C1D-A06A-460F-B375-0F0DC7D395D6}.Debug|Any CPU.Build.0 = Development
+		{5A883C1D-A06A-460F-B375-0F0DC7D395D6}.Development|Any CPU.ActiveCfg = Development
+		{5A883C1D-A06A-460F-B375-0F0DC7D395D6}.Development|Any CPU.Build.0 = Development
+		{5A883C1D-A06A-460F-B375-0F0DC7D395D6}.Release|Any CPU.ActiveCfg = Development
+		{5A883C1D-A06A-460F-B375-0F0DC7D395D6}.Release|Any CPU.Build.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

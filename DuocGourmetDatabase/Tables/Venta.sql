@@ -1,8 +1,8 @@
 ﻿CREATE TABLE [dbo].[Venta]
 (
-	[UID] UNIQUEIDENTIFIER NOT NULL CONSTRAINT [DF_IdVenta] DEFAULT (NEWID()),
+	[OrdenVenta] NVARCHAR(100) NOT NULL,
 	-- PRIMARY KEY
-	[Fecha] DATETIME NOT NULL CONSTRAINT [FK_Venta_Fecha] FOREIGN KEY REFERENCES [dbo].[Tiempo]([Fecha]),
+	[FechaId] NVARCHAR(50) NOT NULL CONSTRAINT [FK_Venta_Fecha] FOREIGN KEY REFERENCES [dbo].[Tiempo]([Id]),
 	[GarzonId] INT NOT NULL CONSTRAINT [FK_Venta_Garzon] FOREIGN KEY REFERENCES [dbo].[Garzon]([Id]),
 	[CajeroId] INT NOT NULL CONSTRAINT [FK_Venta_Cajero] FOREIGN KEY REFERENCES [dbo].[Cajero]([Id]),
 	[CajaId] INT NOT NULL CONSTRAINT [FK_Venta_Caja] FOREIGN KEY REFERENCES [dbo].[Caja]([Id]),
@@ -16,5 +16,5 @@
 	[Propina] NUMERIC(15,3) NOT NULL,
 	[Descuento] NUMERIC(15,3) NOT NULL CONSTRAINT [DF_Descuento] DEFAULT(0)
 
-	CONSTRAINT [PK_Venta] PRIMARY KEY ([UID], [Fecha], [GarzonId], [CajeroId], [CajaId], [ProductoId], [FormaPagoId])
+	CONSTRAINT [PK_Venta] PRIMARY KEY ([OrdenVenta], [FechaId], [GarzonId], [CajeroId], [CajaId], [ProductoId], [FormaPagoId])
 )
