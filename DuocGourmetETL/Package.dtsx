@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="42"
-  DTS:VersionGUID="{8FF8601C-148D-43DE-8EA1-ECDC1D98BDD3}">
+  DTS:VersionBuild="53"
+  DTS:VersionGUID="{F0A7FA42-3A9A-41D7-BB31-FBC8E786A889}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -639,7 +639,7 @@
         <DTS:Property
           DTS:DataType="8"
           DTS:Name="ParameterValue"
-          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAIkOt4KUgU0KOZKjXvT5Z6AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADNry2HQ950U8QKg187xB9l/7cBaV6D1CWaFQMffFGEOQAAAAAOgAAAAAIAACAAAAD/62FXvyWCykEiBdDVYVjxdfywS7xJFYUvfd8Xf6UZdCABAAD6v9xoXoP6DlEJlrj84CgLuncAa2yRDWF+y929t+mf7ch0jCnhEmwpw6yiK2LFkl+ooVCswbovugLaKB+KGwzd2/OtJ3b+z6ujuSRU3QHfQRYxAwTXt8X1edA7+7zPixR6CDpfTFFEVutQxbU64+Aq12G3d/JVApFUAooV0YIUkCth9cXbtxCKMp/K+CHwtHCQTngirbmHznJfDw8zWzDxkaAg6moxBcRKK435HOuIM+2QGX8cF0g2VYl7ThvbdfULUFxOPG7TelfrzcynAsYB8Ynmv4+mkR80bzqBsqhbrYf9pzW9vw0Jx1cFtBPchIevYQyhvzvXFDecRPLJGA6dsuPAxDKLt8BWjC61RYakTuwT5yYZ2cky387kFRFtN/5AAAAAwvldnOp3KGx/n7lonu7ug1aidaCHDO13RuWQMyHSQmfU5mUqWfweB2aWikG4fNOr+Y4/Yk6xYRwvDNYRJnk8Iw</DTS:Property>
+          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAIkOt4KUgU0KOZKjXvT5Z6AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADbhm1gh6KTwyjU7X0ZFSNDdVuQSoxtQRVLyhgbFVAFmgAAAAAOgAAAAAIAACAAAACCmwDu4c17hQE91u9LGtFFwMjZlEMi5kBSAKlhIEuS3CABAACm2Qinc7WwyLb9Vr5pGx8kSjDj4paOOcaGWUSwXg9PgbK0gr7E8xXTQD9fiHtmcATo8593S7wWEZ7fBggn5WXjpOd8I+V+j+AMir4NZjXIIJdtLxGuSF5r0gijsyPfwRNNz+cXtr14e7uQb5smN3v7eoijggCD8qEllFFW+F0v4p8dVipJoja/QTdlkdbSwjMzQ/cM7Y5HP4iYMwRnp+D01cGg8yc0DsTkCtHIqUS0kOOOkSvktuNAyBZoGcOoHWoz804XkoR3PWkwQ2XBhkATi0pGMq8o0l3lTX4LiVyNj+yWXZ9C7J0S8r1nNmcoiS7UAJ52muhXy+tY37gPW+hP0O6wXtbUQFHMIR0RJOqRHZ4aIatE7nZIrJVuECd6y+dAAAAA2fhfdV51zs00LoXSth7czCv6Mqrk3flcPR5FAs7m9Ho2MYEXRfEfFNs0GRLE+sg4syvNy8Jburef/6Vb7YP4ZQ</DTS:Property>
       </DTS:Property>
     </DTS:PackageParameter>
   </DTS:PackageParameters>
@@ -659,7 +659,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{109D9227-264E-4975-A663-9B039629C8FF}"
-          SQLTask:SqlStatementSource="DELETE FROM [dbo].[Caja];&#xA;DELETE FROM [dbo].[Cajero];&#xA;DELETE FROM [dbo].[Garzon];&#xA;DELETE FROM [dbo].[FormaPago];&#xA;DELETE FROM [dbo].[Tiempo];&#xA;DELETE FROM [dbo].[Producto];&#xA;DELETE FROM [dbo].[Categoria];&#xA;DELETE FROM [dbo].[Venta];" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="DELETE FROM [dbo].[Venta];&#xA;DELETE FROM [dbo].[Caja];&#xA;DELETE FROM [dbo].[Cajero];&#xA;DELETE FROM [dbo].[Garzon];&#xA;DELETE FROM [dbo].[FormaPago];&#xA;DELETE FROM [dbo].[Tiempo];&#xA;DELETE FROM [dbo].[Producto];&#xA;DELETE FROM [dbo].[Categoria];&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -744,7 +744,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Poblado Cajas\Excel Source.Outputs[Excel Source Output].ExternalColumns[Descripcion]"
-                      length="255"
+                      length="100"
                       lineageId="Package\Poblado Cajas\Excel Source.Outputs[Excel Source Output].Columns[Descripcion]"
                       name="Descripcion"
                       truncationRowDisposition="FailComponent" />
@@ -876,7 +876,7 @@
                     <inputColumn
                       refId="Package\Poblado Cajas\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Descripcion]"
                       cachedDataType="wstr"
-                      cachedLength="255"
+                      cachedLength="100"
                       cachedName="Descripcion"
                       externalMetadataColumnId="Package\Poblado Cajas\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Descripcion]"
                       lineageId="Package\Poblado Cajas\Excel Source.Outputs[Excel Source Output].Columns[Descripcion]" />
@@ -1022,7 +1022,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Poblado Cajeros\Excel Source.Outputs[Excel Source Output].ExternalColumns[Nombres]"
-                      length="255"
+                      length="250"
                       lineageId="Package\Poblado Cajeros\Excel Source.Outputs[Excel Source Output].Columns[Nombres]"
                       name="Nombres"
                       truncationRowDisposition="FailComponent" />
@@ -1032,7 +1032,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Poblado Cajeros\Excel Source.Outputs[Excel Source Output].ExternalColumns[Apellidos]"
-                      length="255"
+                      length="250"
                       lineageId="Package\Poblado Cajeros\Excel Source.Outputs[Excel Source Output].Columns[Apellidos]"
                       name="Apellidos"
                       truncationRowDisposition="FailComponent" />
@@ -1208,14 +1208,14 @@
                     <inputColumn
                       refId="Package\Poblado Cajeros\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Nombres]"
                       cachedDataType="wstr"
-                      cachedLength="255"
+                      cachedLength="250"
                       cachedName="Nombres"
                       externalMetadataColumnId="Package\Poblado Cajeros\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Nombres]"
                       lineageId="Package\Poblado Cajeros\Excel Source.Outputs[Excel Source Output].Columns[Nombres]" />
                     <inputColumn
                       refId="Package\Poblado Cajeros\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Apellidos]"
                       cachedDataType="wstr"
-                      cachedLength="255"
+                      cachedLength="250"
                       cachedName="Apellidos"
                       externalMetadataColumnId="Package\Poblado Cajeros\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Apellidos]"
                       lineageId="Package\Poblado Cajeros\Excel Source.Outputs[Excel Source Output].Columns[Apellidos]" />
@@ -1371,7 +1371,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Poblado Categorias y Productos\Excel Source.Outputs[Excel Source Output].ExternalColumns[SpanishProductCategoryName]"
-                      length="255"
+                      length="100"
                       lineageId="Package\Poblado Categorias y Productos\Excel Source.Outputs[Excel Source Output].Columns[SpanishProductCategoryName]"
                       name="SpanishProductCategoryName"
                       truncationRowDisposition="FailComponent" />
@@ -1507,7 +1507,7 @@
                     <inputColumn
                       refId="Package\Poblado Categorias y Productos\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[SpanishProductCategoryName]"
                       cachedDataType="wstr"
-                      cachedLength="255"
+                      cachedLength="100"
                       cachedName="SpanishProductCategoryName"
                       externalMetadataColumnId="Package\Poblado Categorias y Productos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Descripcion]"
                       lineageId="Package\Poblado Categorias y Productos\Excel Source.Outputs[Excel Source Output].Columns[SpanishProductCategoryName]" />
@@ -1644,7 +1644,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Poblado Formas de Pago\Excel Source.Outputs[Excel Source Output].ExternalColumns[Descripcion]"
-                      length="255"
+                      length="100"
                       lineageId="Package\Poblado Formas de Pago\Excel Source.Outputs[Excel Source Output].Columns[Descripcion]"
                       name="Descripcion"
                       truncationRowDisposition="FailComponent" />
@@ -1776,7 +1776,7 @@
                     <inputColumn
                       refId="Package\Poblado Formas de Pago\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Descripcion]"
                       cachedDataType="wstr"
-                      cachedLength="255"
+                      cachedLength="100"
                       cachedName="Descripcion"
                       externalMetadataColumnId="Package\Poblado Formas de Pago\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Descripcion]"
                       lineageId="Package\Poblado Formas de Pago\Excel Source.Outputs[Excel Source Output].Columns[Descripcion]" />
@@ -1922,7 +1922,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Poblado Garzones\Excel Source.Outputs[Excel Source Output].ExternalColumns[Nombres]"
-                      length="255"
+                      length="250"
                       lineageId="Package\Poblado Garzones\Excel Source.Outputs[Excel Source Output].Columns[Nombres]"
                       name="Nombres"
                       truncationRowDisposition="FailComponent" />
@@ -1932,7 +1932,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Poblado Garzones\Excel Source.Outputs[Excel Source Output].ExternalColumns[Apellidos]"
-                      length="255"
+                      length="250"
                       lineageId="Package\Poblado Garzones\Excel Source.Outputs[Excel Source Output].Columns[Apellidos]"
                       name="Apellidos"
                       truncationRowDisposition="FailComponent" />
@@ -2108,14 +2108,14 @@
                     <inputColumn
                       refId="Package\Poblado Garzones\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Nombres]"
                       cachedDataType="wstr"
-                      cachedLength="255"
+                      cachedLength="250"
                       cachedName="Nombres"
                       externalMetadataColumnId="Package\Poblado Garzones\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Nombres]"
                       lineageId="Package\Poblado Garzones\Excel Source.Outputs[Excel Source Output].Columns[Nombres]" />
                     <inputColumn
                       refId="Package\Poblado Garzones\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Apellidos]"
                       cachedDataType="wstr"
-                      cachedLength="255"
+                      cachedLength="250"
                       cachedName="Apellidos"
                       externalMetadataColumnId="Package\Poblado Garzones\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Apellidos]"
                       lineageId="Package\Poblado Garzones\Excel Source.Outputs[Excel Source Output].Columns[Apellidos]" />
@@ -4612,7 +4612,7 @@
     design-time-name="Package\Poblado Tiempo">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="171,42"
           Id="Package\Poblado Tiempo\OLE DB Destination"
@@ -4652,7 +4652,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -4675,15 +4677,15 @@
     design-time-name="Package\Poblado Ventas">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="151,42"
-          Id="Package\Poblado Ventas\Flat File Source"
-          TopLeft="149,86" />
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="171,42"
           Id="Package\Poblado Ventas\OLE DB Destination"
           TopLeft="144,236" />
+        <NodeLayout
+          Size="151,42"
+          Id="Package\Poblado Ventas\Flat File Source"
+          TopLeft="149,86" />
         <EdgeLayout
           Id="Package\Poblado Ventas.Paths[Flat File Source Output]"
           TopLeft="227,128">
@@ -4703,7 +4705,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
