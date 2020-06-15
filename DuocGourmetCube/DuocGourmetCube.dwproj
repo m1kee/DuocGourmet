@@ -8,12 +8,12 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>Duoc Gourmet.cube</Name>
-      <FullPath>Duoc Gourmet.cube</FullPath>
+      <Name>Duoc Gourmet Cube.cube</Name>
+      <FullPath>Duoc Gourmet Cube.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Duoc Gourmet.partitions</Name>
-          <FullPath>Duoc Gourmet.partitions</FullPath>
+          <Name>Duoc Gourmet Cube.partitions</Name>
+          <FullPath>Duoc Gourmet Cube.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
@@ -52,8 +52,8 @@
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
-      <Name>Duoc Gourmet.dsv</Name>
-      <FullPath>Duoc Gourmet.dsv</FullPath>
+      <Name>Duoc Gourmet View.dsv</Name>
+      <FullPath>Duoc Gourmet View.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <Configurations>

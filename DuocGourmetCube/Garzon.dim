@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8c1399b0-eb86-46f3-8a33-b44b650ab28a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="490de84a-957e-4c1c-b43d-b1c36e985a9a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Garzon</ID>
   <Name>Garzon</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -68,43 +68,43 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="018ac280-432d-4303-ae14-dbff3995e6a2">
-    <DataSourceViewID>Duoc Gourmet</DataSourceViewID>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="0fbc19c7-d3fe-4820-8ed4-fb5c1c6bd832">
+    <DataSourceViewID>Duoc Gourmet View</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="26ed2862-ed25-465a-907a-7c3993951fa3">
+  <ErrorConfiguration dwd:design-time-name="591f2103-9635-4e09-8b64-77a48493adc2">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="5ee9e592-db71-4cf4-ac87-cb7357133a39">
+    <Attribute dwd:design-time-name="d3db5d9a-d4f8-42c1-b176-c59933e42738">
       <ID>Id</ID>
       <Name>Id</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="4526c6f4-ce37-4d56-b157-55c948a39e20">
+        <KeyColumn dwd:design-time-name="0a88d10a-6d07-4568-be22-961f4c11eec7">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e38a6355-0581-4061-9983-a93530675d0a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="15319697-e516-4486-846d-d3d17f185fc1">
             <TableID>dbo_Garzon</TableID>
             <ColumnID>Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="7fc36837-5873-458d-998e-e3cd8ce349d1">
+        <AttributeRelationship dwd:design-time-name="e23cd837-3f2e-459e-9554-c558cdd56833">
           <AttributeID>Rut</AttributeID>
           <Name>Rut</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="3707f3d1-1045-4ac3-b52b-c4fb3b1e1865">
+        <AttributeRelationship dwd:design-time-name="d6f1f17d-fec0-4c28-bf3f-bfb526915266">
           <AttributeID>Nombres</AttributeID>
           <Name>Nombres</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="53cf666c-5c06-47f1-8655-b142bb374120">
+        <AttributeRelationship dwd:design-time-name="9da5ee61-0913-4d9c-80c8-72e5ffc451cc">
           <AttributeID>Apellidos</AttributeID>
           <Name>Apellidos</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="cd8cfd3f-9798-4789-abb3-4d119ddc8260">
+        <AttributeRelationship dwd:design-time-name="64a266b8-9949-4875-bf66-c7555b737f98">
           <AttributeID>Edad</AttributeID>
           <Name>Edad</Name>
         </AttributeRelationship>
@@ -113,13 +113,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="39abf4ab-acdd-46f6-8efa-ec96981e1fa4">
+    <Attribute dwd:design-time-name="2fd0a9ec-5f98-4870-bd87-484d7fc367ac">
       <ID>Rut</ID>
       <Name>Rut</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="3e14a73b-55ff-478e-8e6c-617594aec79f">
+        <KeyColumn dwd:design-time-name="cc67b9f7-ebcf-4646-a431-f38df8c2759a">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="23152e63-dd86-4958-89a3-8b8effa825dc">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e3615dbf-4843-4c7a-9509-6918b0fc6071">
             <TableID>dbo_Garzon</TableID>
             <ColumnID>Rut</ColumnID>
           </Source>
@@ -128,14 +128,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="1a989219-e8fe-4914-8978-ff9240cea855">
+    <Attribute dwd:design-time-name="4f20bfd5-d08c-4b8e-a706-dd284af574bc">
       <ID>Nombres</ID>
       <Name>Nombres</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c456d140-afae-4564-be80-7e0e5e9afa6d">
+        <KeyColumn dwd:design-time-name="60e36efd-f66d-4efc-adaf-ce79428bf972">
           <DataType>WChar</DataType>
           <DataSize>250</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="6705116a-aea9-460b-94a2-101f530e22ce">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e51f02b8-5da7-47db-9445-d76148e1a733">
             <TableID>dbo_Garzon</TableID>
             <ColumnID>Nombres</ColumnID>
           </Source>
@@ -144,14 +144,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="acde5af5-a5ab-4a08-a6be-04ba7088ecb0">
+    <Attribute dwd:design-time-name="1a175c3a-edb2-4116-b774-a8acd70fae3a">
       <ID>Apellidos</ID>
       <Name>Apellidos</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="743c4f45-94d9-435d-8fc5-5a7c537ed6ab">
+        <KeyColumn dwd:design-time-name="e5e7d732-efa4-48bc-ae4a-0e760e0b3be1">
           <DataType>WChar</DataType>
           <DataSize>250</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="359ce216-f97b-4ca2-946a-84633b1135a6">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b75e0db1-43a0-4ef1-952d-be3ddffc4018">
             <TableID>dbo_Garzon</TableID>
             <ColumnID>Apellidos</ColumnID>
           </Source>
@@ -160,13 +160,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="a609b5ff-8a7a-48ce-98d8-393c1f0de500">
+    <Attribute dwd:design-time-name="33780568-7e70-47a1-ae74-fe204112e86b">
       <ID>Edad</ID>
       <Name>Edad</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="92dd2e0b-49ef-4610-96d5-22f51c129559">
+        <KeyColumn dwd:design-time-name="665d1bb7-81f0-4425-a0ea-ee8c68534dc0">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="3dee4d08-3dbc-4767-995c-a2a271c9a0b4">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d7cdaae1-2b90-41aa-a045-0ecd31044044">
             <TableID>dbo_Garzon</TableID>
             <ColumnID>Edad</ColumnID>
           </Source>

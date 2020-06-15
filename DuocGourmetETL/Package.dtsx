@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="60"
-  DTS:VersionGUID="{7A740805-329C-4006-A871-70D1B42E9935}">
+  DTS:VersionBuild="61"
+  DTS:VersionGUID="{D7CC8C64-7547-44C7-A5CE-F58B8253B801}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -639,7 +639,7 @@
         <DTS:Property
           DTS:DataType="8"
           DTS:Name="ParameterValue"
-          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAIkOt4KUgU0KOZKjXvT5Z6AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADL/QCb//IzWmfL1NbEN9Wik9xM/Bl1naukk1fCRMr3TAAAAAAOgAAAAAIAACAAAABFjm+6OvIBHHFRuH3ZJ4INUOZwaiuSWpwF4GGjMbM7OCABAAAGOEhVPoTotarzHnag0j+sw+yOrL7Zx94qGwIy10+6NB/M3LnKZQpGphC9rLniSbYpCiy0Xe7+56rtdISvqxv7Y/x6Q1CrytrxxjI+j79q/U35SS4jkY4nw4yCziegSZCPlrIm8cpegZAFKFPMzHpAvPJXtWRsql6h9pa0BdiBk4g2UMzT+uv0TBVFxCj17eTpBgrxT8lOMxgjsXyULVvDvccYfplYZNluDuOYFGICFQvFytfBpUh8eUrC89CL2WzdUgd3JeAlCS/1AaN+RVd/pQ4DYgVzWUjoUg29ah1Nx3L9CLjFGq+MmyKFRA/rsthBp+VxHTOj15jiIWOfhKQnJfMDcxHpMA41I9zU74zht5Pq9OA76OVrIe1fVT0qBbFAAAAA9iRtYlsTMy7N47hNR2APZGYg+MAdoe8UBjMpe7MXXPfEG+KPqaFSHxRxEOJxZKJYhmUTa5lxaYBsZqzKxZXBcQ</DTS:Property>
+          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAIkOt4KUgU0KOZKjXvT5Z6AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAyMlIf+bjjh7VNdfifzGasRx2XWQCp7+NWPATetwDZlAAAAAAOgAAAAAIAACAAAACIo/ERRa4WQVc6iZiUdJrhmGeZOIcMGw6PXSRPlWliAyABAABJMKWO/xf1AttaZl8PyASf+ski42Ns1kBW77T3RMYakeeCAKy76b1isQTnYv7IQq1DScZxh+NjzZ2lrnYvMhJQVPvEcgMDlqy5C6msdEo7jKz8LSPNX93xN9Qmx9+YrYvPm9nTeLPvaybaJ1ZLt13lUe2DdoTYX77WvyMANNFUcB+yadOaVhbU2VZbr1nWaxIftNmqSl2ypNsDgWyjLxk3SBl7mSNMvotkqo3gJzeXbDvLBCUzhNwbJz3kucMYq0erXx2x7bcd8us1hf4TjTbOD2i3J//AR+D54gZu9FlDQLmRBbgvk+Mqed7/lROvVtxVM6q3tu3IZmRxR4/JE9zhDFQducXTOHAMZX0PcIGyw17JlisW0YQb6q0pXFfuVs1AAAAASwUll5dhQCXEdEsg3lQ4zZz569Lk+8A3EzPxkNYReFXg5XTIuLU+UwGXZOQpsyxa1fnf6lIarolYauJDS37Lig</DTS:Property>
       </DTS:Property>
     </DTS:PackageParameter>
   </DTS:PackageParameters>
@@ -1290,13 +1290,13 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\Poblado Categorias y Productos"
+      DTS:refId="Package\Poblado Categorias"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
       DTS:DTSID="{C086C229-4313-4783-952E-D663D6B0386A}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Poblado Categorias y Productos"
+      DTS:ObjectName="Poblado Categorias"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -1304,7 +1304,7 @@
           version="1">
           <components>
             <component
-              refId="Package\Poblado Categorias y Productos\Excel Source"
+              refId="Package\Poblado Categorias\Excel Source"
               componentClassID="Microsoft.ExcelSource"
               contactInfo="Excel Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
               description="Excel Source"
@@ -1345,7 +1345,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Poblado Categorias y Productos\Excel Source.Connections[OleDbConnection]"
+                  refId="Package\Poblado Categorias\Excel Source.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[Excel Connection Manager]"
                   connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager]"
                   description="The OLE DB runtime connection used to access the database."
@@ -1353,72 +1353,72 @@
               </connections>
               <outputs>
                 <output
-                  refId="Package\Poblado Categorias y Productos\Excel Source.Outputs[Excel Source Output]"
+                  refId="Package\Poblado Categorias\Excel Source.Outputs[Excel Source Output]"
                   name="Excel Source Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Poblado Categorias y Productos\Excel Source.Outputs[Excel Source Output].Columns[ProductCategoryKey]"
+                      refId="Package\Poblado Categorias\Excel Source.Outputs[Excel Source Output].Columns[ProductCategoryKey]"
                       dataType="r8"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Poblado Categorias y Productos\Excel Source.Outputs[Excel Source Output].ExternalColumns[ProductCategoryKey]"
-                      lineageId="Package\Poblado Categorias y Productos\Excel Source.Outputs[Excel Source Output].Columns[ProductCategoryKey]"
+                      externalMetadataColumnId="Package\Poblado Categorias\Excel Source.Outputs[Excel Source Output].ExternalColumns[ProductCategoryKey]"
+                      lineageId="Package\Poblado Categorias\Excel Source.Outputs[Excel Source Output].Columns[ProductCategoryKey]"
                       name="ProductCategoryKey"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Poblado Categorias y Productos\Excel Source.Outputs[Excel Source Output].Columns[SpanishProductCategoryName]"
+                      refId="Package\Poblado Categorias\Excel Source.Outputs[Excel Source Output].Columns[SpanishProductCategoryName]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Poblado Categorias y Productos\Excel Source.Outputs[Excel Source Output].ExternalColumns[SpanishProductCategoryName]"
+                      externalMetadataColumnId="Package\Poblado Categorias\Excel Source.Outputs[Excel Source Output].ExternalColumns[SpanishProductCategoryName]"
                       length="100"
-                      lineageId="Package\Poblado Categorias y Productos\Excel Source.Outputs[Excel Source Output].Columns[SpanishProductCategoryName]"
+                      lineageId="Package\Poblado Categorias\Excel Source.Outputs[Excel Source Output].Columns[SpanishProductCategoryName]"
                       name="SpanishProductCategoryName"
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Poblado Categorias y Productos\Excel Source.Outputs[Excel Source Output].ExternalColumns[ProductCategoryKey]"
+                      refId="Package\Poblado Categorias\Excel Source.Outputs[Excel Source Output].ExternalColumns[ProductCategoryKey]"
                       dataType="r8"
                       name="ProductCategoryKey" />
                     <externalMetadataColumn
-                      refId="Package\Poblado Categorias y Productos\Excel Source.Outputs[Excel Source Output].ExternalColumns[ProductCategoryAlternateKey]"
+                      refId="Package\Poblado Categorias\Excel Source.Outputs[Excel Source Output].ExternalColumns[ProductCategoryAlternateKey]"
                       dataType="r8"
                       name="ProductCategoryAlternateKey" />
                     <externalMetadataColumn
-                      refId="Package\Poblado Categorias y Productos\Excel Source.Outputs[Excel Source Output].ExternalColumns[SpanishProductCategoryName]"
+                      refId="Package\Poblado Categorias\Excel Source.Outputs[Excel Source Output].ExternalColumns[SpanishProductCategoryName]"
                       dataType="wstr"
                       length="255"
                       name="SpanishProductCategoryName" />
                   </externalMetadataColumns>
                 </output>
                 <output
-                  refId="Package\Poblado Categorias y Productos\Excel Source.Outputs[Excel Source Error Output]"
+                  refId="Package\Poblado Categorias\Excel Source.Outputs[Excel Source Error Output]"
                   isErrorOut="true"
                   name="Excel Source Error Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Poblado Categorias y Productos\Excel Source.Outputs[Excel Source Error Output].Columns[ProductCategoryKey]"
+                      refId="Package\Poblado Categorias\Excel Source.Outputs[Excel Source Error Output].Columns[ProductCategoryKey]"
                       dataType="r8"
-                      lineageId="Package\Poblado Categorias y Productos\Excel Source.Outputs[Excel Source Error Output].Columns[ProductCategoryKey]"
+                      lineageId="Package\Poblado Categorias\Excel Source.Outputs[Excel Source Error Output].Columns[ProductCategoryKey]"
                       name="ProductCategoryKey" />
                     <outputColumn
-                      refId="Package\Poblado Categorias y Productos\Excel Source.Outputs[Excel Source Error Output].Columns[SpanishProductCategoryName]"
+                      refId="Package\Poblado Categorias\Excel Source.Outputs[Excel Source Error Output].Columns[SpanishProductCategoryName]"
                       dataType="wstr"
                       length="255"
-                      lineageId="Package\Poblado Categorias y Productos\Excel Source.Outputs[Excel Source Error Output].Columns[SpanishProductCategoryName]"
+                      lineageId="Package\Poblado Categorias\Excel Source.Outputs[Excel Source Error Output].Columns[SpanishProductCategoryName]"
                       name="SpanishProductCategoryName" />
                     <outputColumn
-                      refId="Package\Poblado Categorias y Productos\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      refId="Package\Poblado Categorias\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Poblado Categorias y Productos\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Poblado Categorias\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Poblado Categorias y Productos\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                      refId="Package\Poblado Categorias\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Poblado Categorias y Productos\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Poblado Categorias\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -1427,7 +1427,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\Poblado Categorias y Productos\OLE DB Destination"
+              refId="Package\Poblado Categorias\OLE DB Destination"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
               description="OLE DB Destination"
@@ -1484,7 +1484,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Poblado Categorias y Productos\OLE DB Destination.Connections[OleDbConnection]"
+                  refId="Package\Poblado Categorias\OLE DB Destination.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[ULTRON.DuocGourmet]"
                   connectionManagerRefId="Package.ConnectionManagers[ULTRON.DuocGourmet]"
                   description="The OLE DB runtime connection used to access the database."
@@ -1492,34 +1492,34 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\Poblado Categorias y Productos\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  refId="Package\Poblado Categorias\OLE DB Destination.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Poblado Categorias y Productos\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ProductCategoryKey]"
+                      refId="Package\Poblado Categorias\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ProductCategoryKey]"
                       cachedDataType="r8"
                       cachedName="ProductCategoryKey"
-                      externalMetadataColumnId="Package\Poblado Categorias y Productos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Id]"
-                      lineageId="Package\Poblado Categorias y Productos\Excel Source.Outputs[Excel Source Output].Columns[ProductCategoryKey]" />
+                      externalMetadataColumnId="Package\Poblado Categorias\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Id]"
+                      lineageId="Package\Poblado Categorias\Excel Source.Outputs[Excel Source Output].Columns[ProductCategoryKey]" />
                     <inputColumn
-                      refId="Package\Poblado Categorias y Productos\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[SpanishProductCategoryName]"
+                      refId="Package\Poblado Categorias\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[SpanishProductCategoryName]"
                       cachedDataType="wstr"
                       cachedLength="100"
                       cachedName="SpanishProductCategoryName"
-                      externalMetadataColumnId="Package\Poblado Categorias y Productos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Descripcion]"
-                      lineageId="Package\Poblado Categorias y Productos\Excel Source.Outputs[Excel Source Output].Columns[SpanishProductCategoryName]" />
+                      externalMetadataColumnId="Package\Poblado Categorias\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Descripcion]"
+                      lineageId="Package\Poblado Categorias\Excel Source.Outputs[Excel Source Output].Columns[SpanishProductCategoryName]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Poblado Categorias y Productos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Id]"
+                      refId="Package\Poblado Categorias\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Id]"
                       dataType="i4"
                       name="Id" />
                     <externalMetadataColumn
-                      refId="Package\Poblado Categorias y Productos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Descripcion]"
+                      refId="Package\Poblado Categorias\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Descripcion]"
                       dataType="wstr"
                       length="100"
                       name="Descripcion" />
@@ -1528,22 +1528,22 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Poblado Categorias y Productos\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  refId="Package\Poblado Categorias\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="OLE DB Destination Error Output"
-                  synchronousInputId="Package\Poblado Categorias y Productos\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  synchronousInputId="Package\Poblado Categorias\OLE DB Destination.Inputs[OLE DB Destination Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Poblado Categorias y Productos\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      refId="Package\Poblado Categorias\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Poblado Categorias y Productos\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Poblado Categorias\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Poblado Categorias y Productos\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      refId="Package\Poblado Categorias\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Poblado Categorias y Productos\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Poblado Categorias\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -1554,10 +1554,10 @@
           </components>
           <paths>
             <path
-              refId="Package\Poblado Categorias y Productos.Paths[Excel Source Output]"
-              endId="Package\Poblado Categorias y Productos\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              refId="Package\Poblado Categorias.Paths[Excel Source Output]"
+              endId="Package\Poblado Categorias\OLE DB Destination.Inputs[OLE DB Destination Input]"
               name="Excel Source Output"
-              startId="Package\Poblado Categorias y Productos\Excel Source.Outputs[Excel Source Output]" />
+              startId="Package\Poblado Categorias\Excel Source.Outputs[Excel Source Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -4119,7 +4119,7 @@
       DTS:From="Package\Poblado Garzones"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 4"
-      DTS:To="Package\Poblado Categorias y Productos" />
+      DTS:To="Package\Poblado Categorias" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 5]"
       DTS:CreationName=""
@@ -4132,7 +4132,7 @@
       DTS:refId="Package.PrecedenceConstraints[Constraint 6]"
       DTS:CreationName=""
       DTS:DTSID="{44B5408F-FF2C-4DC9-87CF-CB84A8F2EFA7}"
-      DTS:From="Package\Poblado Categorias y Productos"
+      DTS:From="Package\Poblado Categorias"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 6"
       DTS:To="Package\Poblado Productos" />
@@ -4170,9 +4170,9 @@
           Id="Package\Poblado Cajeros"
           TopLeft="519,39" />
         <NodeLayout
-          Size="166,65"
-          Id="Package\Poblado Categorias y Productos"
-          TopLeft="524,118" />
+          Size="169,42"
+          Id="Package\Poblado Categorias"
+          TopLeft="524,127" />
         <NodeLayout
           Size="195,42"
           Id="Package\Poblado Formas de Pago"
@@ -4184,7 +4184,7 @@
         <NodeLayout
           Size="166,42"
           Id="Package\Poblado Productos"
-          TopLeft="307,126" />
+          TopLeft="308,126" />
         <NodeLayout
           Size="151,42"
           Id="Package\Poblado Tiempo"
@@ -4283,18 +4283,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
-          TopLeft="738,150.25">
+          TopLeft="738,149">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-48,0"
+              EndConnector="-45,0"
               Start="0,0"
-              End="-40.5,0">
+              End="-37.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-40.5,0" />
+                    End="-37.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4305,18 +4305,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 5]"
-          TopLeft="307,147.5">
+          TopLeft="308,147.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-62,0"
+              EndConnector="-63,0"
               Start="0,0"
-              End="-54.5,0">
+              End="-55.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-54.5,0" />
+                    End="-55.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4327,18 +4327,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 6]"
-          TopLeft="524,148.75">
+          TopLeft="524,147.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-51,0"
+              EndConnector="-50,0"
               Start="0,0"
-              End="-43.5,0">
+              End="-42.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-43.5,0" />
+                    End="-42.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4503,20 +4503,20 @@
     </Properties>
   </PipelineComponentMetadata>
   <TaskHost
-    design-time-name="Package\Poblado Categorias y Productos">
+    design-time-name="Package\Poblado Categorias">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="139,42"
-          Id="Package\Poblado Categorias y Productos\Excel Source"
+          Id="Package\Poblado Categorias\Excel Source"
           TopLeft="130,83" />
         <NodeLayout
           Size="171,42"
-          Id="Package\Poblado Categorias y Productos\OLE DB Destination"
+          Id="Package\Poblado Categorias\OLE DB Destination"
           TopLeft="118,244" />
         <EdgeLayout
-          Id="Package\Poblado Categorias y Productos.Paths[Excel Source Output]"
+          Id="Package\Poblado Categorias.Paths[Excel Source Output]"
           TopLeft="201.5,125">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -4534,16 +4534,14 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Poblado Categorias y Productos\Excel Source">
+    design-time-name="Package\Poblado Categorias\Excel Source">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -4556,7 +4554,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Poblado Categorias y Productos\OLE DB Destination">
+    design-time-name="Package\Poblado Categorias\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -4704,7 +4702,7 @@
     design-time-name="Package\Poblado Productos">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="183,42"
           Id="Package\Poblado Productos\OLE DB Destination 1"
@@ -4732,9 +4730,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -4765,33 +4761,21 @@
         <NodeLayout
           Size="151,42"
           Id="Package\Poblado Tiempo\Flat File Source"
-          TopLeft="160,169" />
+          TopLeft="174,169" />
         <EdgeLayout
           Id="Package\Poblado Tiempo.Paths[Flat File Source Output]"
-          TopLeft="235.5,211">
+          TopLeft="247.5,211">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="10,149"
+              EndConnector="0,149"
               Start="0,0"
-              End="10,141.5">
+              End="0,141.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,70.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,70.5"
-                    Point2="0,74.5"
-                    Point3="4,74.5" />
-                  <mssgle:LineSegment
-                    End="6,74.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="6,74.5"
-                    Point2="10,74.5"
-                    Point3="10,78.5" />
-                  <mssgle:LineSegment
-                    End="10,141.5" />
+                    End="0,141.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4822,20 +4806,80 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="154,42"
+          Id="Package\Poblado Ventas\Derived Column"
+          TopLeft="404,127" />
+        <NodeLayout
           Size="171,42"
           Id="Package\Poblado Ventas\OLE DB Destination"
-          TopLeft="149,364" />
+          TopLeft="145,365" />
+        <NodeLayout
+          Size="156,42"
+          Id="Package\Poblado Ventas\Data Conversion"
+          TopLeft="400,226" />
         <NodeLayout
           Size="151,42"
           Id="Package\Poblado Ventas\Flat File Source"
-          TopLeft="153,42" />
-        <NodeLayout
-          Size="154,42"
-          Id="Package\Poblado Ventas\Derived Column"
-          TopLeft="408,126" />
+          TopLeft="149,43" />
+        <EdgeLayout
+          Id="Package\Poblado Ventas.Paths[Derived Column Output]"
+          TopLeft="479.5,169">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,57"
+              Start="0,0"
+              End="0,49.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,49.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Poblado Ventas.Paths[Data Conversion Output]"
+          TopLeft="478,268">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-247.5,97"
+              Start="0,0"
+              End="-247.5,89.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,44.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,44.5"
+                    Point2="0,48.5"
+                    Point3="-4,48.5" />
+                  <mssgle:LineSegment
+                    End="-243.5,48.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-243.5,48.5"
+                    Point2="-247.5,48.5"
+                    Point3="-247.5,52.5" />
+                  <mssgle:LineSegment
+                    End="-247.5,89.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Poblado Ventas.Paths[Flat File Source Output]"
-          TopLeft="228.5,84">
+          TopLeft="224.5,85">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -4859,78 +4903,6 @@
                     Point3="256.5,25" />
                   <mssgle:LineSegment
                     End="256.5,34.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="156,42"
-          Id="Package\Poblado Ventas\Data Conversion"
-          TopLeft="395,226" />
-        <EdgeLayout
-          Id="Package\Poblado Ventas.Paths[Derived Column Output]"
-          TopLeft="485,168">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-12,58"
-              Start="0,0"
-              End="-12,50.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25"
-                    Point2="0,29"
-                    Point3="-4,29" />
-                  <mssgle:LineSegment
-                    End="-8,29" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-8,29"
-                    Point2="-12,29"
-                    Point3="-12,33" />
-                  <mssgle:LineSegment
-                    End="-12,50.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Poblado Ventas.Paths[Data Conversion Output]"
-          TopLeft="473,268">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-238.5,96"
-              Start="0,0"
-              End="-238.5,88.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,44" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,44"
-                    Point2="0,48"
-                    Point3="-4,48" />
-                  <mssgle:LineSegment
-                    End="-234.5,48" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-234.5,48"
-                    Point2="-238.5,48"
-                    Point3="-238.5,52" />
-                  <mssgle:LineSegment
-                    End="-238.5,88.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
