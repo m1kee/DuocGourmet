@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="53"
-  DTS:VersionGUID="{F0A7FA42-3A9A-41D7-BB31-FBC8E786A889}">
+  DTS:VersionBuild="60"
+  DTS:VersionGUID="{7A740805-329C-4006-A871-70D1B42E9935}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Fechas]"
       DTS:CreationName="FLATFILE"
-      DTS:DTSID="{FED00320-8A31-4615-9B6E-2257D646C21D}"
+      DTS:DTSID="{D5D8E9A9-2C8F-4E01-9753-D484835FACBA}"
       DTS:ObjectName="Fechas">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -44,164 +44,164 @@
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
+              DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DateKey"
-              DTS:DTSID="{251D01E7-1E34-405E-AF1F-C109615A1EC6}"
+              DTS:DTSID="{3ADE934F-6A61-4FD8-A4F6-9D24C88792A9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
+              DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="133"
               DTS:TextQualified="True"
               DTS:ObjectName="FullDateAlternateKey"
-              DTS:DTSID="{5D6C0C10-462A-4FB7-ADDC-20C9A0B60797}"
+              DTS:DTSID="{2610C155-4F25-47A4-AE11-D04E84F72BF9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
+              DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DayNumberOfWeek"
-              DTS:DTSID="{DFF91B3F-919B-4A79-B38D-297142E390D0}"
+              DTS:DTSID="{5E9A3DC9-0264-4AF3-BAE1-BC1FA6556389}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
+              DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="EnglishDayNameOfWeek"
-              DTS:DTSID="{6F339522-266F-4DB0-86E5-2326918743F8}"
+              DTS:DTSID="{7342C20D-3BA0-4F2C-8253-D93D35E3F73A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
+              DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SpanishDayNameOfWeek"
-              DTS:DTSID="{DBEC5476-7FE9-4FAF-9E2C-540075E5235E}"
+              DTS:DTSID="{37A1DA35-39AC-4E27-9A35-B772CFB645FF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
+              DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="FrenchDayNameOfWeek"
-              DTS:DTSID="{8297DA79-7FB6-49A0-A0B2-5F04B094C4F4}"
+              DTS:DTSID="{1701A473-C494-412F-AD6E-B82B5654842B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
+              DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DayNumberOfMonth"
-              DTS:DTSID="{96D45810-7688-4C04-9778-F821C649892C}"
+              DTS:DTSID="{8A3293BC-762A-43C5-BF1D-D13327B14586}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
+              DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DayNumberOfYear"
-              DTS:DTSID="{BE134C2A-ED1D-4A60-96C2-DAD377514E20}"
+              DTS:DTSID="{7AB03B73-437C-4551-8880-12B1BF6DBAC2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
+              DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="WeekNumberOfYear"
-              DTS:DTSID="{CEBA7DC4-104F-46FB-976A-8EA666C734E2}"
+              DTS:DTSID="{77325EAE-7FBD-42AB-8637-08AAACFF3A9D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
+              DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="EnglishMonthName"
-              DTS:DTSID="{2CFF899B-E54C-4296-BC92-2257D51E86D7}"
+              DTS:DTSID="{9CCC3E50-13AF-4F36-A384-CA345393FBB3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
+              DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SpanishMonthName"
-              DTS:DTSID="{7B5DFE2C-1AC1-49E6-B41B-E5192E6C8B09}"
+              DTS:DTSID="{45D656AE-4D59-4A2D-8BA0-11666BDE124A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
+              DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="FrenchMonthName"
-              DTS:DTSID="{3A2532E1-4A90-4988-940C-2AFB3231EE0B}"
+              DTS:DTSID="{B657497B-2BEF-4F42-BD55-BCE8EF38E7FD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
+              DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="MonthNumberOfYear"
-              DTS:DTSID="{667A45E4-58FC-455D-A94A-F68A6ED30CFF}"
+              DTS:DTSID="{F218EA36-2948-461F-BE5B-900A1653BC39}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
+              DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CalendarQuarter"
-              DTS:DTSID="{CF6351B2-5E6B-475A-8CB8-17FEF7A1A5E9}"
+              DTS:DTSID="{9E28A965-2700-4BAD-989B-6E2FFAB01E5A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
+              DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CalendarYear"
-              DTS:DTSID="{DCF247C4-AF71-49B7-AD6F-753790038774}"
+              DTS:DTSID="{8EF9C56A-F14F-49BC-B172-71AEF2305A7E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
+              DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CalendarSemester"
-              DTS:DTSID="{50FA38C9-BE90-413A-B9E1-D862B3F3B514}"
+              DTS:DTSID="{4AAACAFC-EFC7-4363-A3E3-FEAE0B7C409E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
+              DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="FiscalQuarter"
-              DTS:DTSID="{FE387652-9147-4587-B3CE-82C5292878ED}"
+              DTS:DTSID="{E2A51C7D-265A-4782-B03E-3679B411EE56}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
+              DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="FiscalYear"
-              DTS:DTSID="{EF98A014-823D-4655-947A-513ACCA62B01}"
+              DTS:DTSID="{5E23604F-3759-4263-ADB6-31D0CDD2835D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -210,7 +210,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="FiscalSemester"
-              DTS:DTSID="{D8A380DE-31B3-48EB-AF86-05A6AC5DC9DF}"
+              DTS:DTSID="{5B2CF00F-4370-4BBF-8D08-DCEFB4B4D175}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -639,7 +639,7 @@
         <DTS:Property
           DTS:DataType="8"
           DTS:Name="ParameterValue"
-          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAIkOt4KUgU0KOZKjXvT5Z6AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADbhm1gh6KTwyjU7X0ZFSNDdVuQSoxtQRVLyhgbFVAFmgAAAAAOgAAAAAIAACAAAACCmwDu4c17hQE91u9LGtFFwMjZlEMi5kBSAKlhIEuS3CABAACm2Qinc7WwyLb9Vr5pGx8kSjDj4paOOcaGWUSwXg9PgbK0gr7E8xXTQD9fiHtmcATo8593S7wWEZ7fBggn5WXjpOd8I+V+j+AMir4NZjXIIJdtLxGuSF5r0gijsyPfwRNNz+cXtr14e7uQb5smN3v7eoijggCD8qEllFFW+F0v4p8dVipJoja/QTdlkdbSwjMzQ/cM7Y5HP4iYMwRnp+D01cGg8yc0DsTkCtHIqUS0kOOOkSvktuNAyBZoGcOoHWoz804XkoR3PWkwQ2XBhkATi0pGMq8o0l3lTX4LiVyNj+yWXZ9C7J0S8r1nNmcoiS7UAJ52muhXy+tY37gPW+hP0O6wXtbUQFHMIR0RJOqRHZ4aIatE7nZIrJVuECd6y+dAAAAA2fhfdV51zs00LoXSth7czCv6Mqrk3flcPR5FAs7m9Ho2MYEXRfEfFNs0GRLE+sg4syvNy8Jburef/6Vb7YP4ZQ</DTS:Property>
+          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAIkOt4KUgU0KOZKjXvT5Z6AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADL/QCb//IzWmfL1NbEN9Wik9xM/Bl1naukk1fCRMr3TAAAAAAOgAAAAAIAACAAAABFjm+6OvIBHHFRuH3ZJ4INUOZwaiuSWpwF4GGjMbM7OCABAAAGOEhVPoTotarzHnag0j+sw+yOrL7Zx94qGwIy10+6NB/M3LnKZQpGphC9rLniSbYpCiy0Xe7+56rtdISvqxv7Y/x6Q1CrytrxxjI+j79q/U35SS4jkY4nw4yCziegSZCPlrIm8cpegZAFKFPMzHpAvPJXtWRsql6h9pa0BdiBk4g2UMzT+uv0TBVFxCj17eTpBgrxT8lOMxgjsXyULVvDvccYfplYZNluDuOYFGICFQvFytfBpUh8eUrC89CL2WzdUgd3JeAlCS/1AaN+RVd/pQ4DYgVzWUjoUg29ah1Nx3L9CLjFGq+MmyKFRA/rsthBp+VxHTOj15jiIWOfhKQnJfMDcxHpMA41I9zU74zht5Pq9OA76OVrIe1fVT0qBbFAAAAA9iRtYlsTMy7N47hNR2APZGYg+MAdoe8UBjMpe7MXXPfEG+KPqaFSHxRxEOJxZKJYhmUTa5lxaYBsZqzKxZXBcQ</DTS:Property>
       </DTS:Property>
     </DTS:PackageParameter>
   </DTS:PackageParameters>
@@ -3053,13 +3053,6 @@
                       cachedName="CalendarYear"
                       externalMetadataColumnId="Package\Poblado Tiempo\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Anio]"
                       lineageId="Package\Poblado Tiempo\Flat File Source.Outputs[Flat File Source Output].Columns[CalendarYear]" />
-                    <inputColumn
-                      refId="Package\Poblado Tiempo\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[DateKey]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="DateKey"
-                      externalMetadataColumnId="Package\Poblado Tiempo\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Id]"
-                      lineageId="Package\Poblado Tiempo\Flat File Source.Outputs[Flat File Source Output].Columns[DateKey]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -3087,11 +3080,6 @@
                       refId="Package\Poblado Tiempo\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Anio]"
                       dataType="i4"
                       name="Anio" />
-                    <externalMetadataColumn
-                      refId="Package\Poblado Tiempo\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Id]"
-                      dataType="wstr"
-                      length="50"
-                      name="Id" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -3145,6 +3133,157 @@
         <pipeline
           version="1">
           <components>
+            <component
+              refId="Package\Poblado Ventas\Data Conversion"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Data Conversion"
+              name="Data Conversion"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Poblado Ventas\Data Conversion.Inputs[Data Conversion Input]"
+                  name="Data Conversion Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Poblado Ventas\Data Conversion.Inputs[Data Conversion Input].Columns[OrderDateKey]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="OrderDateKey"
+                      lineageId="Package\Poblado Ventas\Flat File Source.Outputs[Flat File Source Output].Columns[OrderDateKey]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Poblado Ventas\Data Conversion.Outputs[Data Conversion Output]"
+                  exclusionGroup="1"
+                  name="Data Conversion Output"
+                  synchronousInputId="Package\Poblado Ventas\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Poblado Ventas\Data Conversion.Outputs[Data Conversion Output].Columns[OrderDateKey]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Poblado Ventas\Data Conversion.Outputs[Data Conversion Output].Columns[OrderDateKey]"
+                      name="OrderDateKey"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Poblado Ventas\Flat File Source.Outputs[Flat File Source Output].Columns[OrderDateKey]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Poblado Ventas\Data Conversion.Outputs[Data Conversion Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Data Conversion Error Output"
+                  synchronousInputId="Package\Poblado Ventas\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Poblado Ventas\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Poblado Ventas\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Poblado Ventas\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Poblado Ventas\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Poblado Ventas\Derived Column"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Derived Column"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Poblado Ventas\Derived Column.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Poblado Ventas\Derived Column.Inputs[Derived Column Input].Columns[OrderDateKey]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="OrderDateKey"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Poblado Ventas\Flat File Source.Outputs[Flat File Source Output].Columns[OrderDateKey]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[SUBSTRING](#{Package\Poblado Ventas\Flat File Source.Outputs[Flat File Source Output].Columns[OrderDateKey]},1,4) + "/" + [SUBSTRING](#{Package\Poblado Ventas\Flat File Source.Outputs[Flat File Source Output].Columns[OrderDateKey]},5,2) + "/" + [SUBSTRING](#{Package\Poblado Ventas\Flat File Source.Outputs[Flat File Source Output].Columns[OrderDateKey]},7,2)</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">SUBSTRING(OrderDateKey,1,4) + "/" + SUBSTRING(OrderDateKey,5,2) + "/" + SUBSTRING(OrderDateKey,7,2)</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Poblado Ventas\Derived Column.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Poblado Ventas\Derived Column.Inputs[Derived Column Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Poblado Ventas\Derived Column.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Poblado Ventas\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Poblado Ventas\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Poblado Ventas\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Poblado Ventas\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Poblado Ventas\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
             <component
               refId="Package\Poblado Ventas\Flat File Source"
               componentClassID="Microsoft.FlatFileSource"
@@ -3822,11 +3961,10 @@
                       lineageId="Package\Poblado Ventas\Flat File Source.Outputs[Flat File Source Output].Columns[DiscountAmount]" />
                     <inputColumn
                       refId="Package\Poblado Ventas\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[OrderDateKey]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
+                      cachedDataType="dbDate"
                       cachedName="OrderDateKey"
-                      externalMetadataColumnId="Package\Poblado Ventas\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[FechaId]"
-                      lineageId="Package\Poblado Ventas\Flat File Source.Outputs[Flat File Source Output].Columns[OrderDateKey]" />
+                      externalMetadataColumnId="Package\Poblado Ventas\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Fecha]"
+                      lineageId="Package\Poblado Ventas\Data Conversion.Outputs[Data Conversion Output].Columns[OrderDateKey]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -3835,11 +3973,6 @@
                       dataType="wstr"
                       length="100"
                       name="OrdenVenta" />
-                    <externalMetadataColumn
-                      refId="Package\Poblado Ventas\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[FechaId]"
-                      dataType="wstr"
-                      length="50"
-                      name="FechaId" />
                     <externalMetadataColumn
                       refId="Package\Poblado Ventas\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[GarzonId]"
                       dataType="i4"
@@ -3892,6 +4025,10 @@
                       name="Descuento"
                       precision="15"
                       scale="3" />
+                    <externalMetadataColumn
+                      refId="Package\Poblado Ventas\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Fecha]"
+                      dataType="dbDate"
+                      name="Fecha" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -3923,8 +4060,18 @@
           </components>
           <paths>
             <path
-              refId="Package\Poblado Ventas.Paths[Flat File Source Output]"
+              refId="Package\Poblado Ventas.Paths[Data Conversion Output]"
               endId="Package\Poblado Ventas\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Data Conversion Output"
+              startId="Package\Poblado Ventas\Data Conversion.Outputs[Data Conversion Output]" />
+            <path
+              refId="Package\Poblado Ventas.Paths[Derived Column Output]"
+              endId="Package\Poblado Ventas\Data Conversion.Inputs[Data Conversion Input]"
+              name="Derived Column Output"
+              startId="Package\Poblado Ventas\Derived Column.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Poblado Ventas.Paths[Flat File Source Output]"
+              endId="Package\Poblado Ventas\Derived Column.Inputs[Derived Column Input]"
               name="Flat File Source Output"
               startId="Package\Poblado Ventas\Flat File Source.Outputs[Flat File Source Output]" />
           </paths>
@@ -4229,7 +4376,7 @@
     design-time-name="Package\Poblado Cajas">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="139,42"
           Id="Package\Poblado Cajas\Excel Source"
@@ -4257,9 +4404,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -4612,11 +4757,11 @@
     design-time-name="Package\Poblado Tiempo">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="171,42"
           Id="Package\Poblado Tiempo\OLE DB Destination"
-          TopLeft="159,358" />
+          TopLeft="160,360" />
         <NodeLayout
           Size="151,42"
           Id="Package\Poblado Tiempo\Flat File Source"
@@ -4627,34 +4772,32 @@
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="9,147"
+              EndConnector="10,149"
               Start="0,0"
-              End="9,139.5">
+              End="10,141.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,69.5" />
+                    End="0,70.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,69.5"
-                    Point2="0,73.5"
-                    Point3="4,73.5" />
+                    Point1="0,70.5"
+                    Point2="0,74.5"
+                    Point3="4,74.5" />
                   <mssgle:LineSegment
-                    End="5,73.5" />
+                    End="6,74.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="5,73.5"
-                    Point2="9,73.5"
-                    Point3="9,77.5" />
+                    Point1="6,74.5"
+                    Point2="10,74.5"
+                    Point3="10,78.5" />
                   <mssgle:LineSegment
-                    End="9,139.5" />
+                    End="10,141.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -4677,37 +4820,123 @@
     design-time-name="Package\Poblado Ventas">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="171,42"
           Id="Package\Poblado Ventas\OLE DB Destination"
-          TopLeft="144,236" />
+          TopLeft="149,364" />
         <NodeLayout
           Size="151,42"
           Id="Package\Poblado Ventas\Flat File Source"
-          TopLeft="149,86" />
+          TopLeft="153,42" />
+        <NodeLayout
+          Size="154,42"
+          Id="Package\Poblado Ventas\Derived Column"
+          TopLeft="408,126" />
         <EdgeLayout
           Id="Package\Poblado Ventas.Paths[Flat File Source Output]"
-          TopLeft="227,128">
+          TopLeft="228.5,84">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,108"
+              EndConnector="256.5,42"
               Start="0,0"
-              End="0,100.5">
+              End="256.5,34.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,100.5" />
+                    End="0,17" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,17"
+                    Point2="0,21"
+                    Point3="4,21" />
+                  <mssgle:LineSegment
+                    End="252.5,21" />
+                  <mssgle:CubicBezierSegment
+                    Point1="252.5,21"
+                    Point2="256.5,21"
+                    Point3="256.5,25" />
+                  <mssgle:LineSegment
+                    End="256.5,34.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="156,42"
+          Id="Package\Poblado Ventas\Data Conversion"
+          TopLeft="395,226" />
+        <EdgeLayout
+          Id="Package\Poblado Ventas.Paths[Derived Column Output]"
+          TopLeft="485,168">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-12,58"
+              Start="0,0"
+              End="-12,50.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25"
+                    Point2="0,29"
+                    Point3="-4,29" />
+                  <mssgle:LineSegment
+                    End="-8,29" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-8,29"
+                    Point2="-12,29"
+                    Point3="-12,33" />
+                  <mssgle:LineSegment
+                    End="-12,50.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Poblado Ventas.Paths[Data Conversion Output]"
+          TopLeft="473,268">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-238.5,96"
+              Start="0,0"
+              End="-238.5,88.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,44" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,44"
+                    Point2="0,48"
+                    Point3="-4,48" />
+                  <mssgle:LineSegment
+                    End="-234.5,48" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-234.5,48"
+                    Point2="-238.5,48"
+                    Point3="-238.5,52" />
+                  <mssgle:LineSegment
+                    End="-238.5,88.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
